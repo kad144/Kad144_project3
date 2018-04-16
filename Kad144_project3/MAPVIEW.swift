@@ -29,18 +29,10 @@ class MAPVIEW: UIViewController,MKMapViewDelegate {
         annotaion.title="daye bensa coffee Shop"
         annotaion.subtitle="come see us"
         myMAp.addAnnotation(annotaion)
-       
-        
-        
-       
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
     }
-    
-
-
-
 }

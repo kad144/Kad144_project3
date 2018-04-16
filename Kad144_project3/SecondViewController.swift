@@ -23,9 +23,6 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
          readfromDB()
     }
     
-    
-   
-    
     override func viewDidLoad() {
         super.viewDidLoad()
        
@@ -45,6 +42,7 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
         cell.textLabel?.text = custemerInfo
         return cell
     }
+    //reading the orders from the database
      func readfromDB()
     {
         let myQuery = CKQuery(recordType: "custemerInfo", predicate: NSPredicate(value: true))

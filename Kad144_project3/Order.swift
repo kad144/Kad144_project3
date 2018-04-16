@@ -47,10 +47,6 @@ let database = CKContainer.default().publicCloudDatabase
         }
     }
     
-   
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         input.delegate = self
