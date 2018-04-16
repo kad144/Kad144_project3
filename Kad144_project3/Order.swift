@@ -8,7 +8,7 @@
 
 import UIKit
 import CloudKit
-class Order: UIViewController {
+class Order: UIViewController,UITextFieldDelegate {
 
 let database = CKContainer.default().publicCloudDatabase
     
@@ -23,6 +23,17 @@ let database = CKContainer.default().publicCloudDatabase
         self.saveToCloud(custemerInfo:  Info)
         UserDefaults.standard.set(output.text, forKey: "my name")
         
+        let keyStore = NSUbiquitousKeyValueStore()
+        var data = keyStore.longLong(forKey: "data")
+        data += 1
+        print("data:", data)
+        // save data count
+        keyStore.set(data, forKey: "data")
+        keyStore.synchronize()
+        NotificationCenter.default.addObserver(forName: NSUbiquitousKeyValueStore.didChangeExternallyNotification, object: nil, queue: nil) {
+            notification in
+            print("Notification: \(notification.description)")
+        }
     }
 
     //saving the order information to cloud 
@@ -36,14 +47,23 @@ let database = CKContainer.default().publicCloudDatabase
         }
     }
     
-    
+   
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        input.delegate = self
         
+    }
+    
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    //hiding the keyboard after typring
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
 
     override func didReceiveMemoryWarning() {
