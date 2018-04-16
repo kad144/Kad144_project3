@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Kad144_project3
+//  pre Project 3
 //
-//  Created by kenean dukamo on 4/16/18.
+//  Created by kenean dukamo on 4/8/18.
 //  Copyright © 2018 kenean dukamo. All rights reserved.
 //
 
