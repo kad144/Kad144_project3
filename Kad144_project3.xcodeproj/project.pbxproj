@@ -15,7 +15,6 @@
 		A67B435A208535960021BFD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A67B434F208535960021BFD4 /* Assets.xcassets */; };
 		A67B435B208535960021BFD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B4350208535960021BFD4 /* AppDelegate.swift */; };
 		A67B435C208535960021BFD4 /* DayeCoffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A67B4351208535960021BFD4 /* DayeCoffee.jpg */; };
-		A67B435D208535960021BFD4 /* tableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B4352208535960021BFD4 /* tableView.swift */; };
 		A67B435E208535960021BFD4 /* MAPVIEW.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B4353208535960021BFD4 /* MAPVIEW.swift */; };
 		A67B435F208535960021BFD4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B4354208535960021BFD4 /* Order.swift */; };
 /* End PBXBuildFile section */
@@ -33,7 +32,6 @@
 		A67B434F208535960021BFD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A67B4350208535960021BFD4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A67B4351208535960021BFD4 /* DayeCoffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DayeCoffee.jpg; sourceTree = "<group>"; };
-		A67B4352208535960021BFD4 /* tableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableView.swift; sourceTree = "<group>"; };
 		A67B4353208535960021BFD4 /* MAPVIEW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPVIEW.swift; sourceTree = "<group>"; };
 		A67B4354208535960021BFD4 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,7 +79,6 @@
 				A67B4353208535960021BFD4 /* MAPVIEW.swift */,
 				A67B4354208535960021BFD4 /* Order.swift */,
 				A67B434D208535950021BFD4 /* SecondViewController.swift */,
-				A67B4352208535960021BFD4 /* tableView.swift */,
 				A67B4349208535940021BFD4 /* Kad144_project3-Bridging-Header.h */,
 			);
 			path = Kad144_project3;
@@ -182,7 +179,6 @@
 				A67B435F208535960021BFD4 /* Order.swift in Sources */,
 				A67B435E208535960021BFD4 /* MAPVIEW.swift in Sources */,
 				A67B435B208535960021BFD4 /* AppDelegate.swift in Sources */,
-				A67B435D208535960021BFD4 /* tableView.swift in Sources */,
 				A67B4358208535960021BFD4 /* SecondViewController.swift in Sources */,
 				A67B4359208535960021BFD4 /* FirstViewController.swift in Sources */,
 			);
