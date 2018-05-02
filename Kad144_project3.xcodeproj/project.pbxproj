@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A61944E5209A653100456C6D /* sharingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61944E4209A653100456C6D /* sharingViewController.swift */; };
 		A67B43482085352E0021BFD4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67B43472085352E0021BFD4 /* CloudKit.framework */; };
 		A67B4356208535960021BFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67B434B208535950021BFD4 /* Main.storyboard */; };
 		A67B4357208535960021BFD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67B434C208535950021BFD4 /* LaunchScreen.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A61944E4209A653100456C6D /* sharingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharingViewController.swift; sourceTree = "<group>"; };
 		A67B432E2085348E0021BFD4 /* Kad144_project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kad144_project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67B43452085352B0021BFD4 /* Kad144_project3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kad144_project3.entitlements; sourceTree = "<group>"; };
 		A67B43472085352E0021BFD4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
@@ -73,6 +75,7 @@
 				A67B434F208535960021BFD4 /* Assets.xcassets */,
 				A67B4351208535960021BFD4 /* DayeCoffee.jpg */,
 				A67B434A208535950021BFD4 /* Info.plist */,
+				A61944E4209A653100456C6D /* sharingViewController.swift */,
 				A67B434C208535950021BFD4 /* LaunchScreen.storyboard */,
 				A67B434B208535950021BFD4 /* Main.storyboard */,
 				A67B434E208535950021BFD4 /* FirstViewController.swift */,
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A67B435F208535960021BFD4 /* Order.swift in Sources */,
+				A61944E5209A653100456C6D /* sharingViewController.swift in Sources */,
 				A67B435E208535960021BFD4 /* MAPVIEW.swift in Sources */,
 				A67B435B208535960021BFD4 /* AppDelegate.swift in Sources */,
 				A67B4358208535960021BFD4 /* SecondViewController.swift in Sources */,
