@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -12,7 +13,7 @@
         <!--Home-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="kad144_project3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Kad144_project3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -63,10 +64,46 @@
             </objects>
             <point key="canvasLocation" x="671" y="-688"/>
         </scene>
+        <!--Share-->
+        <scene sceneID="PsN-HC-imH">
+            <objects>
+                <viewController id="scx-NV-SGR" customClass="sharingViewController" customModule="Kad144_project3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qed-jp-DFp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdf-Yb-eEM">
+                                <rect key="frame" x="61" y="295" width="252" height="76"/>
+                                <color key="backgroundColor" red="0.86838191747665405" green="0.79604482650756836" blue="0.78283005952835083" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Optima-Italic" family="Optima" pointSize="22"/>
+                                <color key="tintColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Invite and share our app">
+                                    <color key="titleColor" red="0.27320763468742371" green="0.13282361626625061" blue="0.10983579605817795" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sharingtap" destination="scx-NV-SGR" eventType="touchUpInside" id="LUS-JF-aRR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.3404541016" green="0.16803836820000001" blue="0.1360562146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zdf-Yb-eEM" firstAttribute="leading" secondItem="Qq0-0I-qwe" secondAttribute="leading" constant="61" id="FQq-9W-iOx"/>
+                            <constraint firstItem="Qq0-0I-qwe" firstAttribute="trailing" secondItem="zdf-Yb-eEM" secondAttribute="trailing" constant="62" id="ZNO-s5-jIc"/>
+                            <constraint firstItem="Qq0-0I-qwe" firstAttribute="bottom" secondItem="zdf-Yb-eEM" secondAttribute="bottom" constant="247" id="l2Q-hv-GsG"/>
+                            <constraint firstItem="zdf-Yb-eEM" firstAttribute="top" secondItem="Qq0-0I-qwe" secondAttribute="top" constant="275" id="s0Q-ew-hEh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Qq0-0I-qwe"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Share" selectedImage="first" id="Knk-vf-tbu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v15-fh-X4Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-159.19999999999999" y="807.34632683658174"/>
+        </scene>
         <!--check order-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="kad144_project3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Kad144_project3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,7 +151,7 @@
         <!--Order-->
         <scene sceneID="VHD-XI-kwd">
             <objects>
-                <viewController id="nPF-wQ-qrE" customClass="Order" customModule="kad144_project3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nPF-wQ-qrE" customClass="Order" customModule="Kad144_project3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cn6-J5-dk6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -239,6 +276,7 @@
                         <segue destination="nPF-wQ-qrE" kind="relationship" relationship="viewControllers" id="khA-Ik-5Tq"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="J5v-PZ-1go" kind="relationship" relationship="viewControllers" id="XuJ-Fu-DcX"/>
+                        <segue destination="scx-NV-SGR" kind="relationship" relationship="viewControllers" id="XCw-Fx-UzF"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -248,7 +286,7 @@
         <!--LOCATION-->
         <scene sceneID="nQg-hy-xgj">
             <objects>
-                <viewController id="J5v-PZ-1go" customClass="MAPVIEW" customModule="kad144_project3" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="J5v-PZ-1go" customClass="MAPVIEW" customModule="Kad144_project3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="B3M-CL-AB4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

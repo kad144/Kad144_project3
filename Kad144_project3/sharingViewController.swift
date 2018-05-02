@@ -10,26 +10,14 @@ import UIKit
 
 class sharingViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    @IBAction func sharingtap()
+    {
+        let invitingText = """
+click the link to get our app https://www.google.com/search?safe=active&source=hp&ei=9zTqWvz9CNKJggeZiJeICQ&q=daya+bensa+app&oq=daya+bensa+app&gs_l=psy-ab.3...752.4191.0.4443.15.9.0.0.0.0.1072.1072.7-1.1.0....0...1c.1.64.psy-ab..14.0.0.0...0.0U0Tqwm9IDI
+"""
+        let contolloer = UIActivityViewController(activityItems: [invitingText], applicationActivities: nil)
+        present(contolloer, animated: true, completion: nil)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
