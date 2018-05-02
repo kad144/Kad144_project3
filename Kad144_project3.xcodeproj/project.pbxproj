@@ -39,6 +39,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A61944E7209A722100456C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61944EC209A722100456C6D /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A67B432B2085348E0021BFD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -63,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				A67B432E2085348E0021BFD4 /* Kad144_project3.app */,
+				A61944EA209A722100456C6D /* todaydisplay.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				A67B43472085352E0021BFD4 /* CloudKit.framework */,
+				A61944EB209A722100456C6D /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -98,6 +108,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A61944E9209A722100456C6D /* todaydisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61944F7209A722100456C6D /* Build configuration list for PBXNativeTarget "todaydisplay" */;
+			buildPhases = (
+				A61944E6209A722100456C6D /* Sources */,
+				A61944E7209A722100456C6D /* Frameworks */,
+				A61944E8209A722100456C6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = todaydisplay;
+			productName = todaydisplay;
+			productReference = A61944EA209A722100456C6D /* todaydisplay.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		A67B432D2085348E0021BFD4 /* Kad144_project3 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A67B4342208534900021BFD4 /* Build configuration list for PBXNativeTarget "Kad144_project3" */;
@@ -125,6 +152,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "kenean dukamo";
 				TargetAttributes = {
+					A61944E9209A722100456C6D = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					A67B432D2085348E0021BFD4 = {
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 0930;
@@ -156,11 +186,19 @@
 			projectRoot = "";
 			targets = (
 				A67B432D2085348E0021BFD4 /* Kad144_project3 */,
+				A61944E9209A722100456C6D /* todaydisplay */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A61944E8209A722100456C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A67B432C2085348E0021BFD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -175,6 +213,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A61944E6209A722100456C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A67B432A2085348E0021BFD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -191,6 +236,46 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		A61944F8209A722100456C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FT8PS6NT6;
+				INFOPLIST_FILE = todaydisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uakron.cs.ios.kad144.todaydisplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A61944F9209A722100456C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FT8PS6NT6;
+				INFOPLIST_FILE = todaydisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uakron.cs.ios.kad144.todaydisplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		A67B4340208534900021BFD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -355,6 +440,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A61944F7209A722100456C6D /* Build configuration list for PBXNativeTarget "todaydisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61944F8209A722100456C6D /* Debug */,
+				A61944F9209A722100456C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A67B43292085348E0021BFD4 /* Build configuration list for PBXProject "Kad144_project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
