@@ -1,0 +1,42 @@
+
+/* Class = "UILabel"; text = "COFFEE MENU"; ObjectID = "ERC-fL-FjR"; */
+"ERC-fL-FjR.text" = "COFFEE MENU";
+
+/* Class = "UITabBarItem"; title = "Share"; ObjectID = "Knk-vf-tbu"; */
+"Knk-vf-tbu.title" = "Share";
+
+/* Class = "UITextField"; placeholder = "Custemer name"; ObjectID = "Lgy-ku-C9N"; */
+"Lgy-ku-C9N.placeholder" = "Custemer name";
+
+/* Class = "UITabBarItem"; title = "Order"; ObjectID = "PyP-KH-Xu9"; */
+"PyP-KH-Xu9.title" = "Order";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Home";
+
+/* Class = "UILabel"; text = "Name:            Order:"; ObjectID = "atg-4p-l0R"; */
+"atg-4p-l0R.text" = "Name:            Order:";
+
+/* Class = "UITabBarItem"; title = "check order"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "check order";
+
+/* Class = "UITabBarItem"; title = "LOCATION"; ObjectID = "eWw-bX-jhN"; */
+"eWw-bX-jhN.title" = "LOCATION";
+
+/* Class = "UIButton"; normalTitle = "Latte"; ObjectID = "g6E-z7-MoR"; */
+"g6E-z7-MoR.normalTitle" = "Latte";
+
+/* Class = "UIButton"; normalTitle = "refresh"; ObjectID = "oon-QB-Ee9"; */
+"oon-QB-Ee9.normalTitle" = "refresh";
+
+/* Class = "UIButton"; normalTitle = "Cappuccino"; ObjectID = "vdh-Zd-el8"; */
+"vdh-Zd-el8.normalTitle" = "Cappuccino";
+
+/* Class = "UIButton"; normalTitle = "COffee"; ObjectID = "wOr-my-zBv"; */
+"wOr-my-zBv.normalTitle" = "COffee";
+
+/* Class = "UIButton"; normalTitle = "Espesso"; ObjectID = "zYW-LC-SBQ"; */
+"zYW-LC-SBQ.normalTitle" = "Espesso";
+
+/* Class = "UIButton"; normalTitle = "Invite and share our app"; ObjectID = "zdf-Yb-eEM"; */
+"zdf-Yb-eEM.normalTitle" = "Invite and share our app";

@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		A61944E5209A653100456C6D /* sharingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61944E4209A653100456C6D /* sharingViewController.swift */; };
+		A667C144209B756E00F44E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A667C146209B756E00F44E8C /* Main.storyboard */; };
 		A6738BFA209A7A8D00B31FF2 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6738BF9209A7A8D00B31FF2 /* NotificationCenter.framework */; };
 		A6738BFD209A7A8D00B31FF2 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6738BFC209A7A8D00B31FF2 /* TodayViewController.swift */; };
 		A6738C00209A7A8D00B31FF2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6738BFE209A7A8D00B31FF2 /* MainInterface.storyboard */; };
 		A6738C04209A7A8D00B31FF2 /* dayeCoffee.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A6738BF8209A7A8D00B31FF2 /* dayeCoffee.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A67B43482085352E0021BFD4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67B43472085352E0021BFD4 /* CloudKit.framework */; };
-		A67B4356208535960021BFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67B434B208535950021BFD4 /* Main.storyboard */; };
 		A67B4357208535960021BFD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67B434C208535950021BFD4 /* LaunchScreen.storyboard */; };
 		A67B4358208535960021BFD4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B434D208535950021BFD4 /* SecondViewController.swift */; };
 		A67B4359208535960021BFD4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B434E208535950021BFD4 /* FirstViewController.swift */; };
@@ -50,6 +50,12 @@
 
 /* Begin PBXFileReference section */
 		A61944E4209A653100456C6D /* sharingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharingViewController.swift; sourceTree = "<group>"; };
+		A667C142209B755400F44E8C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		A667C143209B756000F44E8C /* am */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = am; path = am.lproj/MainInterface.strings; sourceTree = "<group>"; };
+		A667C145209B756E00F44E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A667C148209B757100F44E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		A667C14A209B757200F44E8C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		A667C14C209B757300F44E8C /* am */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = am; path = am.lproj/Main.strings; sourceTree = "<group>"; };
 		A6738BF8209A7A8D00B31FF2 /* dayeCoffee.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = dayeCoffee.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6738BF9209A7A8D00B31FF2 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		A6738BFC209A7A8D00B31FF2 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +66,6 @@
 		A67B43472085352E0021BFD4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		A67B4349208535940021BFD4 /* Kad144_project3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kad144_project3-Bridging-Header.h"; sourceTree = "<group>"; };
 		A67B434A208535950021BFD4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A67B434B208535950021BFD4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A67B434C208535950021BFD4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A67B434D208535950021BFD4 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A67B434E208535950021BFD4 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -136,7 +141,7 @@
 				A67B4351208535960021BFD4 /* DayeCoffee.jpg */,
 				A67B434A208535950021BFD4 /* Info.plist */,
 				A67B434C208535950021BFD4 /* LaunchScreen.storyboard */,
-				A67B434B208535950021BFD4 /* Main.storyboard */,
+				A667C146209B756E00F44E8C /* Main.storyboard */,
 				A61944E4209A653100456C6D /* sharingViewController.swift */,
 				A67B434E208535950021BFD4 /* FirstViewController.swift */,
 				A67B4353208535960021BFD4 /* MAPVIEW.swift */,
@@ -251,6 +256,8 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
+				am,
 			);
 			mainGroup = A67B43252085348E0021BFD4;
 			productRefGroup = A67B432F2085348E0021BFD4 /* Products */;
@@ -286,7 +293,7 @@
 			files = (
 				A67B4357208535960021BFD4 /* LaunchScreen.storyboard in Resources */,
 				A67B435A208535960021BFD4 /* Assets.xcassets in Resources */,
-				A67B4356208535960021BFD4 /* Main.storyboard in Resources */,
+				A667C144209B756E00F44E8C /* Main.storyboard in Resources */,
 				A67B435C208535960021BFD4 /* DayeCoffee.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,10 +340,23 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A667C146209B756E00F44E8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A667C145209B756E00F44E8C /* Base */,
+				A667C148209B757100F44E8C /* en */,
+				A667C14A209B757200F44E8C /* fr */,
+				A667C14C209B757300F44E8C /* am */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		A6738BFE209A7A8D00B31FF2 /* MainInterface.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A6738BFF209A7A8D00B31FF2 /* Base */,
+				A667C142209B755400F44E8C /* fr */,
+				A667C143209B756000F44E8C /* am */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -428,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -488,6 +509,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

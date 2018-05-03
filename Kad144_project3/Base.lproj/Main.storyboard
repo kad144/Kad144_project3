@@ -94,7 +94,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Qq0-0I-qwe"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Share" selectedImage="first" id="Knk-vf-tbu"/>
+                    <tabBarItem key="tabBarItem" title="Share" image="first" selectedImage="first" id="Knk-vf-tbu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v15-fh-X4Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

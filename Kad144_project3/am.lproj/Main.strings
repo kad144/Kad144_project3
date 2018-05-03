@@ -1,0 +1,41 @@
+/* Class = "UILabel"; text = "COFFEE MENU"; ObjectID = "ERC-fL-FjR"; */
+"ERC-fL-FjR.text" = "ካፌ ዝርዝር";
+
+/* Class = "UITabBarItem"; title = "Share"; ObjectID = "Knk-vf-tbu"; */
+"Knk-vf-tbu.title" = "አጋራ";
+
+/* Class = "UITextField"; placeholder = "Custemer name"; ObjectID = "Lgy-ku-C9N"; */
+"Lgy-ku-C9N.placeholder" = "የደንበኛ ስም";
+
+/* Class = "UITabBarItem"; title = "Order"; ObjectID = "PyP-KH-Xu9"; */
+"PyP-KH-Xu9.title" = "ትዕዛዝ";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "መግቢያ";
+
+/* Class = "UILabel"; text = "Name:            Order:"; ObjectID = "atg-4p-l0R"; */
+"atg-4p-l0R.text" = "ስም:                ትዕዛዝ:";
+
+/* Class = "UITabBarItem"; title = "check order"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "ትእዛዝ ፈትሽ";
+
+/* Class = "UITabBarItem"; title = "LOCATION"; ObjectID = "eWw-bX-jhN"; */
+"eWw-bX-jhN.title" = "አካባቢ";
+
+/* Class = "UIButton"; normalTitle = "Latte"; ObjectID = "g6E-z7-MoR"; */
+"g6E-z7-MoR.normalTitle" = "ማኩኪቶ";
+
+/* Class = "UIButton"; normalTitle = "refresh"; ObjectID = "oon-QB-Ee9"; */
+"oon-QB-Ee9.normalTitle" = "አድስ";
+
+/* Class = "UIButton"; normalTitle = "Cappuccino"; ObjectID = "vdh-Zd-el8"; */
+"vdh-Zd-el8.normalTitle" = "ካፕቺኖ";
+
+/* Class = "UIButton"; normalTitle = "COffee"; ObjectID = "wOr-my-zBv"; */
+"wOr-my-zBv.normalTitle" = "ቡና";
+
+/* Class = "UIButton"; normalTitle = "Espesso"; ObjectID = "zYW-LC-SBQ"; */
+"zYW-LC-SBQ.normalTitle" = "ኤስፕሬሶ";
+
+/* Class = "UIButton"; normalTitle = "Invite and share our app"; ObjectID = "zdf-Yb-eEM"; */
+"zdf-Yb-eEM.normalTitle" = "ይጋብዙ እና ያጋሩ";
