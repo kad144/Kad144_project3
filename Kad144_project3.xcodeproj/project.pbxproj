@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		A61944E5209A653100456C6D /* sharingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61944E4209A653100456C6D /* sharingViewController.swift */; };
+		A6400D03209BCCC1000D18E7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6400D01209BCCC1000D18E7 /* Interface.storyboard */; };
+		A6400D05209BCCC3000D18E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6400D04209BCCC3000D18E7 /* Assets.xcassets */; };
+		A6400D0C209BCCC3000D18E7 /* dayewatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A6400D0B209BCCC3000D18E7 /* dayewatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A6400D11209BCCC3000D18E7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6400D10209BCCC3000D18E7 /* InterfaceController.swift */; };
+		A6400D13209BCCC3000D18E7 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6400D12209BCCC3000D18E7 /* ExtensionDelegate.swift */; };
+		A6400D15209BCCC3000D18E7 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6400D14209BCCC3000D18E7 /* NotificationController.swift */; };
+		A6400D17209BCCC3000D18E7 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6400D16209BCCC3000D18E7 /* ComplicationController.swift */; };
+		A6400D19209BCCC4000D18E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6400D18209BCCC4000D18E7 /* Assets.xcassets */; };
+		A6400D1E209BCCC4000D18E7 /* dayewatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A6400CFF209BCCC1000D18E7 /* dayewatch.app */; };
 		A667C144209B756E00F44E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A667C146209B756E00F44E8C /* Main.storyboard */; };
 		A6738BFA209A7A8D00B31FF2 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6738BF9209A7A8D00B31FF2 /* NotificationCenter.framework */; };
 		A6738BFD209A7A8D00B31FF2 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6738BFC209A7A8D00B31FF2 /* TodayViewController.swift */; };
@@ -25,6 +34,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A6400D0D209BCCC3000D18E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A67B43262085348E0021BFD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6400D0A209BCCC3000D18E7;
+			remoteInfo = "dayewatch Extension";
+		};
+		A6400D1C209BCCC4000D18E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A67B43262085348E0021BFD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6400CFE209BCCC1000D18E7;
+			remoteInfo = dayewatch;
+		};
 		A6738C02209A7A8D00B31FF2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A67B43262085348E0021BFD4 /* Project object */;
@@ -35,6 +58,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		A6400D24209BCCC4000D18E7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A6400D0C209BCCC3000D18E7 /* dayewatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6400D26209BCCC4000D18E7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A6400D1E209BCCC4000D18E7 /* dayewatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6738C08209A7A8D00B31FF2 /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,12 +95,25 @@
 
 /* Begin PBXFileReference section */
 		A61944E4209A653100456C6D /* sharingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharingViewController.swift; sourceTree = "<group>"; };
+		A6400CFF209BCCC1000D18E7 /* dayewatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dayewatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6400D02209BCCC1000D18E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A6400D04209BCCC3000D18E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6400D06209BCCC3000D18E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6400D0B209BCCC3000D18E7 /* dayewatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "dayewatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6400D10209BCCC3000D18E7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		A6400D12209BCCC3000D18E7 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		A6400D14209BCCC3000D18E7 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A6400D16209BCCC3000D18E7 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A6400D18209BCCC4000D18E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6400D1A209BCCC4000D18E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6400D1B209BCCC4000D18E7 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		A667C142209B755400F44E8C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		A667C143209B756000F44E8C /* am */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = am; path = am.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		A667C145209B756E00F44E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A667C148209B757100F44E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		A667C14A209B757200F44E8C /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 		A667C14C209B757300F44E8C /* am */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = am; path = am.lproj/Main.strings; sourceTree = "<group>"; };
+		A667C14E209B782E00F44E8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainInterface.strings; sourceTree = "<group>"; };
 		A6738BF8209A7A8D00B31FF2 /* dayeCoffee.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = dayeCoffee.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6738BF9209A7A8D00B31FF2 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		A6738BFC209A7A8D00B31FF2 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +142,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6400D08209BCCC3000D18E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6738BF5209A7A8D00B31FF2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,6 +168,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6400D00209BCCC1000D18E7 /* dayewatch */ = {
+			isa = PBXGroup;
+			children = (
+				A6400D01209BCCC1000D18E7 /* Interface.storyboard */,
+				A6400D04209BCCC3000D18E7 /* Assets.xcassets */,
+				A6400D06209BCCC3000D18E7 /* Info.plist */,
+			);
+			path = dayewatch;
+			sourceTree = "<group>";
+		};
+		A6400D0F209BCCC3000D18E7 /* dayewatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A6400D10209BCCC3000D18E7 /* InterfaceController.swift */,
+				A6400D12209BCCC3000D18E7 /* ExtensionDelegate.swift */,
+				A6400D14209BCCC3000D18E7 /* NotificationController.swift */,
+				A6400D16209BCCC3000D18E7 /* ComplicationController.swift */,
+				A6400D18209BCCC4000D18E7 /* Assets.xcassets */,
+				A6400D1A209BCCC4000D18E7 /* Info.plist */,
+				A6400D1B209BCCC4000D18E7 /* PushNotificationPayload.apns */,
+			);
+			path = "dayewatch Extension";
+			sourceTree = "<group>";
+		};
 		A6738BFB209A7A8D00B31FF2 /* dayeCoffee */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +207,8 @@
 			children = (
 				A67B43302085348E0021BFD4 /* Kad144_project3 */,
 				A6738BFB209A7A8D00B31FF2 /* dayeCoffee */,
+				A6400D00209BCCC1000D18E7 /* dayewatch */,
+				A6400D0F209BCCC3000D18E7 /* dayewatch Extension */,
 				A67B432F2085348E0021BFD4 /* Products */,
 				A67B43462085352E0021BFD4 /* Frameworks */,
 			);
@@ -128,6 +219,8 @@
 			children = (
 				A67B432E2085348E0021BFD4 /* Kad144_project3.app */,
 				A6738BF8209A7A8D00B31FF2 /* dayeCoffee.appex */,
+				A6400CFF209BCCC1000D18E7 /* dayewatch.app */,
+				A6400D0B209BCCC3000D18E7 /* dayewatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,6 +273,40 @@
 			productName = todaydisplay;
 			productType = "com.apple.product-type.app-extension";
 		};
+		A6400CFE209BCCC1000D18E7 /* dayewatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6400D25209BCCC4000D18E7 /* Build configuration list for PBXNativeTarget "dayewatch" */;
+			buildPhases = (
+				A6400CFD209BCCC1000D18E7 /* Resources */,
+				A6400D24209BCCC4000D18E7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6400D0E209BCCC3000D18E7 /* PBXTargetDependency */,
+			);
+			name = dayewatch;
+			productName = dayewatch;
+			productReference = A6400CFF209BCCC1000D18E7 /* dayewatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		A6400D0A209BCCC3000D18E7 /* dayewatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6400D23209BCCC4000D18E7 /* Build configuration list for PBXNativeTarget "dayewatch Extension" */;
+			buildPhases = (
+				A6400D07209BCCC3000D18E7 /* Sources */,
+				A6400D08209BCCC3000D18E7 /* Frameworks */,
+				A6400D09209BCCC3000D18E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dayewatch Extension";
+			productName = "dayewatch Extension";
+			productReference = A6400D0B209BCCC3000D18E7 /* dayewatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		A6738BF7209A7A8D00B31FF2 /* dayeCoffee */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6738C07209A7A8D00B31FF2 /* Build configuration list for PBXNativeTarget "dayeCoffee" */;
@@ -205,11 +332,13 @@
 				A67B432B2085348E0021BFD4 /* Frameworks */,
 				A67B432C2085348E0021BFD4 /* Resources */,
 				A6738C08209A7A8D00B31FF2 /* Embed App Extensions */,
+				A6400D26209BCCC4000D18E7 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				A6738C03209A7A8D00B31FF2 /* PBXTargetDependency */,
+				A6400D1D209BCCC4000D18E7 /* PBXTargetDependency */,
 			);
 			name = Kad144_project3;
 			productName = Kad144_project3;
@@ -229,6 +358,12 @@
 					A61944E9209A722100456C6D = {
 						CreatedOnToolsVersion = 9.3;
 					};
+					A6400CFE209BCCC1000D18E7 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A6400D0A209BCCC3000D18E7 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					A6738BF7209A7A8D00B31FF2 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -236,6 +371,9 @@
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 0930;
 						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
 							com.apple.GameCenter.iOS = {
 								enabled = 0;
 							};
@@ -267,6 +405,8 @@
 				A67B432D2085348E0021BFD4 /* Kad144_project3 */,
 				A61944E9209A722100456C6D /* todaydisplay */,
 				A6738BF7209A7A8D00B31FF2 /* dayeCoffee */,
+				A6400CFE209BCCC1000D18E7 /* dayewatch */,
+				A6400D0A209BCCC3000D18E7 /* dayewatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -276,6 +416,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6400CFD209BCCC1000D18E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6400D05209BCCC3000D18E7 /* Assets.xcassets in Resources */,
+				A6400D03209BCCC1000D18E7 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6400D09209BCCC3000D18E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6400D19209BCCC4000D18E7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +465,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6400D07209BCCC3000D18E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6400D15209BCCC3000D18E7 /* NotificationController.swift in Sources */,
+				A6400D17209BCCC3000D18E7 /* ComplicationController.swift in Sources */,
+				A6400D13209BCCC3000D18E7 /* ExtensionDelegate.swift in Sources */,
+				A6400D11209BCCC3000D18E7 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A6738BF4209A7A8D00B31FF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -332,6 +500,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A6400D0E209BCCC3000D18E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6400D0A209BCCC3000D18E7 /* dayewatch Extension */;
+			targetProxy = A6400D0D209BCCC3000D18E7 /* PBXContainerItemProxy */;
+		};
+		A6400D1D209BCCC4000D18E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6400CFE209BCCC1000D18E7 /* dayewatch */;
+			targetProxy = A6400D1C209BCCC4000D18E7 /* PBXContainerItemProxy */;
+		};
 		A6738C03209A7A8D00B31FF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A6738BF7209A7A8D00B31FF2 /* dayeCoffee */;
@@ -340,6 +518,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A6400D01209BCCC1000D18E7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6400D02209BCCC1000D18E7 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		A667C146209B756E00F44E8C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -357,6 +543,7 @@
 				A6738BFF209A7A8D00B31FF2 /* Base */,
 				A667C142209B755400F44E8C /* fr */,
 				A667C143209B756000F44E8C /* am */,
+				A667C14E209B782E00F44E8C /* en */,
 			);
 			name = MainInterface.storyboard;
 			sourceTree = "<group>";
@@ -401,6 +588,90 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6400D1F209BCCC4000D18E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FT8PS6NT6;
+				IBSC_MODULE = dayewatch_Extension;
+				INFOPLIST_FILE = dayewatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uakron.cs.ios.kad144.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		A6400D20209BCCC4000D18E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FT8PS6NT6;
+				IBSC_MODULE = dayewatch_Extension;
+				INFOPLIST_FILE = dayewatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uakron.cs.ios.kad144.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		A6400D21209BCCC4000D18E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FT8PS6NT6;
+				INFOPLIST_FILE = "dayewatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uakron.cs.ios.kad144.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		A6400D22209BCCC4000D18E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FT8PS6NT6;
+				INFOPLIST_FILE = "dayewatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uakron.cs.ios.kad144.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
 			};
 			name = Release;
 		};
@@ -568,7 +839,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Kad144_project3/Kad144_project3.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3FT8PS6NT6;
 				INFOPLIST_FILE = Kad144_project3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -577,7 +848,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uakron.cs.ios.kad144;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "97b0b50a-cea8-47f1-aeac-06f2a08e1008";
+				PROVISIONING_PROFILE_SPECIFIER = kad144;
 				SWIFT_OBJC_BRIDGING_HEADER = "Kad144_project3/Kad144_project3-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -593,7 +865,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Kad144_project3/Kad144_project3.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3FT8PS6NT6;
 				INFOPLIST_FILE = Kad144_project3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -602,7 +874,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uakron.cs.ios.kad144;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "97b0b50a-cea8-47f1-aeac-06f2a08e1008";
+				PROVISIONING_PROFILE_SPECIFIER = kad144;
 				SWIFT_OBJC_BRIDGING_HEADER = "Kad144_project3/Kad144_project3-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -617,6 +890,24 @@
 			buildConfigurations = (
 				A61944F8209A722100456C6D /* Debug */,
 				A61944F9209A722100456C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6400D23209BCCC4000D18E7 /* Build configuration list for PBXNativeTarget "dayewatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6400D21209BCCC4000D18E7 /* Debug */,
+				A6400D22209BCCC4000D18E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6400D25209BCCC4000D18E7 /* Build configuration list for PBXNativeTarget "dayewatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6400D1F209BCCC4000D18E7 /* Debug */,
+				A6400D20209BCCC4000D18E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
