@@ -21,6 +21,8 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
     
     @IBAction func check(_ sender: UIButton) {
          readfromDB()
+        let currentcount = custemerInfos.count
+        print(currentcount)
     }
     
     override func viewDidLoad() {
@@ -60,6 +62,7 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
             
         }
     }
+    
 }
 
 

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A61944E5209A653100456C6D /* sharingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61944E4209A653100456C6D /* sharingViewController.swift */; };
+		A6738BFA209A7A8D00B31FF2 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6738BF9209A7A8D00B31FF2 /* NotificationCenter.framework */; };
+		A6738BFD209A7A8D00B31FF2 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6738BFC209A7A8D00B31FF2 /* TodayViewController.swift */; };
+		A6738C00209A7A8D00B31FF2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6738BFE209A7A8D00B31FF2 /* MainInterface.storyboard */; };
+		A6738C04209A7A8D00B31FF2 /* dayeCoffee.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A6738BF8209A7A8D00B31FF2 /* dayeCoffee.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A67B43482085352E0021BFD4 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A67B43472085352E0021BFD4 /* CloudKit.framework */; };
 		A67B4356208535960021BFD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67B434B208535950021BFD4 /* Main.storyboard */; };
 		A67B4357208535960021BFD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67B434C208535950021BFD4 /* LaunchScreen.storyboard */; };
@@ -20,8 +24,37 @@
 		A67B435F208535960021BFD4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67B4354208535960021BFD4 /* Order.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A6738C02209A7A8D00B31FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A67B43262085348E0021BFD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6738BF7209A7A8D00B31FF2;
+			remoteInfo = dayeCoffee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6738C08209A7A8D00B31FF2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A6738C04209A7A8D00B31FF2 /* dayeCoffee.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		A61944E4209A653100456C6D /* sharingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sharingViewController.swift; sourceTree = "<group>"; };
+		A6738BF8209A7A8D00B31FF2 /* dayeCoffee.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = dayeCoffee.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6738BF9209A7A8D00B31FF2 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		A6738BFC209A7A8D00B31FF2 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		A6738BFF209A7A8D00B31FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A6738C01209A7A8D00B31FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A67B432E2085348E0021BFD4 /* Kad144_project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kad144_project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A67B43452085352B0021BFD4 /* Kad144_project3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kad144_project3.entitlements; sourceTree = "<group>"; };
 		A67B43472085352E0021BFD4 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
@@ -43,7 +76,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A61944EC209A722100456C6D /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6738BF5209A7A8D00B31FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6738BFA209A7A8D00B31FF2 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,10 +98,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6738BFB209A7A8D00B31FF2 /* dayeCoffee */ = {
+			isa = PBXGroup;
+			children = (
+				A6738BFC209A7A8D00B31FF2 /* TodayViewController.swift */,
+				A6738BFE209A7A8D00B31FF2 /* MainInterface.storyboard */,
+				A6738C01209A7A8D00B31FF2 /* Info.plist */,
+			);
+			path = dayeCoffee;
+			sourceTree = "<group>";
+		};
 		A67B43252085348E0021BFD4 = {
 			isa = PBXGroup;
 			children = (
 				A67B43302085348E0021BFD4 /* Kad144_project3 */,
+				A6738BFB209A7A8D00B31FF2 /* dayeCoffee */,
 				A67B432F2085348E0021BFD4 /* Products */,
 				A67B43462085352E0021BFD4 /* Frameworks */,
 			);
@@ -71,7 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				A67B432E2085348E0021BFD4 /* Kad144_project3.app */,
-				A61944EA209A722100456C6D /* todaydisplay.appex */,
+				A6738BF8209A7A8D00B31FF2 /* dayeCoffee.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				A67B43472085352E0021BFD4 /* CloudKit.framework */,
-				A61944EB209A722100456C6D /* NotificationCenter.framework */,
+				A6738BF9209A7A8D00B31FF2 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -122,7 +173,23 @@
 			);
 			name = todaydisplay;
 			productName = todaydisplay;
-			productReference = A61944EA209A722100456C6D /* todaydisplay.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A6738BF7209A7A8D00B31FF2 /* dayeCoffee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6738C07209A7A8D00B31FF2 /* Build configuration list for PBXNativeTarget "dayeCoffee" */;
+			buildPhases = (
+				A6738BF4209A7A8D00B31FF2 /* Sources */,
+				A6738BF5209A7A8D00B31FF2 /* Frameworks */,
+				A6738BF6209A7A8D00B31FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dayeCoffee;
+			productName = dayeCoffee;
+			productReference = A6738BF8209A7A8D00B31FF2 /* dayeCoffee.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		A67B432D2085348E0021BFD4 /* Kad144_project3 */ = {
@@ -132,10 +199,12 @@
 				A67B432A2085348E0021BFD4 /* Sources */,
 				A67B432B2085348E0021BFD4 /* Frameworks */,
 				A67B432C2085348E0021BFD4 /* Resources */,
+				A6738C08209A7A8D00B31FF2 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				A6738C03209A7A8D00B31FF2 /* PBXTargetDependency */,
 			);
 			name = Kad144_project3;
 			productName = Kad144_project3;
@@ -153,6 +222,9 @@
 				ORGANIZATIONNAME = "kenean dukamo";
 				TargetAttributes = {
 					A61944E9209A722100456C6D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A6738BF7209A7A8D00B31FF2 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 					A67B432D2085348E0021BFD4 = {
@@ -187,6 +259,7 @@
 			targets = (
 				A67B432D2085348E0021BFD4 /* Kad144_project3 */,
 				A61944E9209A722100456C6D /* todaydisplay */,
+				A6738BF7209A7A8D00B31FF2 /* dayeCoffee */,
 			);
 		};
 /* End PBXProject section */
@@ -196,6 +269,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6738BF6209A7A8D00B31FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6738C00209A7A8D00B31FF2 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +301,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A6738BF4209A7A8D00B31FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6738BFD209A7A8D00B31FF2 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A67B432A2085348E0021BFD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +323,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6738C03209A7A8D00B31FF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6738BF7209A7A8D00B31FF2 /* dayeCoffee */;
+			targetProxy = A6738C02209A7A8D00B31FF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6738BFE209A7A8D00B31FF2 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6738BFF209A7A8D00B31FF2 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A61944F8209A722100456C6D /* Debug */ = {
@@ -269,6 +377,46 @@
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = edu.uakron.cs.ios.kad144.todaydisplay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6738C05209A7A8D00B31FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FT8PS6NT6;
+				INFOPLIST_FILE = dayeCoffee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uakron.cs.ios.kad144.dayeCoffee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6738C06209A7A8D00B31FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FT8PS6NT6;
+				INFOPLIST_FILE = dayeCoffee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uakron.cs.ios.kad144.dayeCoffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -393,6 +541,7 @@
 		A67B4343208534900021BFD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Kad144_project3/Kad144_project3.entitlements;
@@ -417,6 +566,7 @@
 		A67B4344208534900021BFD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Kad144_project3/Kad144_project3.entitlements;
@@ -445,6 +595,15 @@
 			buildConfigurations = (
 				A61944F8209A722100456C6D /* Debug */,
 				A61944F9209A722100456C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6738C07209A7A8D00B31FF2 /* Build configuration list for PBXNativeTarget "dayeCoffee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6738C05209A7A8D00B31FF2 /* Debug */,
+				A6738C06209A7A8D00B31FF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
