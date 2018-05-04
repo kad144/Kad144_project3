@@ -1,8 +1,8 @@
 {
     "aps": {
         "alert": {
-            "body": "Test message",
-            "title": "Optional title"
+            "body": "Order ready!",
+            "title": "you can pickit up"
         },
         "category": "myCategory",
         "thread-id":"5280"
@@ -10,7 +10,7 @@
     
     "WatchKit Simulator Actions": [
         {
-            "title": "First Button",
+            "title": "done",
             "identifier": "firstButtonAction"
         }
     ],

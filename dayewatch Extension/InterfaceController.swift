@@ -35,6 +35,7 @@ class InterfaceController: WKInterfaceController {
         super.awake(withContext: context)
         timingOrder()
         
+        
     }
     
     override func willActivate() {
